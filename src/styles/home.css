@@ -1,0 +1,81 @@
+.hero-btn button:first-child {
+  outline:none;
+  padding: 15px 20px;
+  color: #000;
+  background:transparent;
+  border-radius:50px;
+  font-size:1rem;
+  font-weight:bold;
+}
+.order-btn:hover{
+  color: #fff !important;
+  background:#df2020 !important;
+  transition:all 0.2s ease-in-out;
+  border: 2px solid #df2020 !important;
+}
+.hero-btn button:last-child:hover{
+  color: #000 !important;
+  background:transparent !important;
+  transition:all 0.2s ease-in-out;
+  border: 2px solid #000 !important;
+
+}
+.hero-btn button:last-child{
+  outline:none;
+  padding: 15px 20px;
+  color: #fff !important;
+  background:#df2020;
+  border-radius:50px;
+  border:none;
+  font-size:1rem;
+  font-weight:600;
+}
+.subtitle{
+  color: #df2020;
+}
+.title span{
+  color: #df2020;
+}
+
+.food-category{
+  background:#df2020;
+  text-align:center;
+  margin-top:30px;
+  padding:20px 0px;
+  border-radius:8px;
+}
+.food-category button{
+  border:none;
+  outline:none;
+  padding:7px 20px;
+  background: transparent;
+  color:#fff;
+  font-size:1rem;
+  font-weight:500;
+  border-radius:5px;
+  transition: background 0.2s ease-in-out;
+}
+.food-category button:hover{
+  background:#fff !important;
+  color:#df2020 !important;
+}
+.food-category button img{
+  width:30px;
+  height:30px;
+}
+.foodBtnActive{
+  background:#fff !important;
+  border-radius:5px;
+  color:#df2020 !important;
+}
+.testimonial{
+  
+}
+.testimonial-subtitle{
+  color:#df2020 !important;
+  
+}
+.testimonial-desc{
+  line-height:30px;
+  color:#777;
+}

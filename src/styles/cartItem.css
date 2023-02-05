@@ -1,0 +1,34 @@
+.cartItem-info img{
+  width:35px;
+  height:35px;
+  object-fit:cover;
+}
+.product-title{
+  font-size:0.8rem;
+  font-weight:600;
+}
+.cartProduct-price{
+  font-size:0.8rem;
+
+}
+.cartProduct-price span{
+  font-size:0.9rem;
+  font-weight:600;
+  color:#df2020;
+}
+.increase-decrease-btn{
+  background:#fde4e4;
+  padding:2px 5px;
+  border-radius:5px;
+  width:100px;
+}
+.decrease-btn,.increase-btn{
+  cursor:pointer;
+}
+.delete-btn{
+  font-size:1.1rem;
+  font-weight:600;
+}
+.quantity{
+
+}
