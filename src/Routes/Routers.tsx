@@ -4,7 +4,6 @@ import Home from '../pages/Home';
 import AllFood from '../pages/AllFood';
 import FoodDetails from '../pages/FoodDetails';
 import Cart from '../pages/Cart';
-import Contact from '../pages/Contact';
 const Routers = () => {
   return (
     <Routes>
@@ -27,10 +26,6 @@ const Routers = () => {
       <Route
         path='/cart'
         element={<Cart />}
-      />
-      <Route
-        path='/contact'
-        element={<Contact />}
       />
     </Routes>
   );
